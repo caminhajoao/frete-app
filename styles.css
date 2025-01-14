@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Museo';
-    src: url('Museo700-Regular.woff2') format('woff2');
+    src: url('Museo700-Regular.otf') format('opentype');
 }
 
 body {
