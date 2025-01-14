@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simulador de Frete PE </title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Simulador de Frete PE </h1>
+        <img src="/imagem-caminhao.svg" alt="Caminhão" class="truck-image">
+
+        <!-- Dropdown para selecionar a cidade -->
+        <select id="city-select">
+            <option value="">Selecione sua cidade</option>
+        </select>
+
+        <input type="number" placeholder="Metros cúbicos do pedido (m³):" step="0.01" min="0">
+        <button id="clear-btn1">Calcular frete</button>
+        <button id="clear-btn2">Limpar</button>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
+
+</body>
+</html>

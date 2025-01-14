@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do Frete</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simulador de Frete PE</h1>
+        <img src="/imagem-caminhao.svg" alt="Caminhão" class="truck-image">
+        <div id="result"></div>
+        <button id="clear-btn2">Limpar</button>
+    </div>
+
+    <script type="module">
+        import { displayFreightResult, setupClearButton } from './scripts/freightModule.js';
+
+        // Chama as funções do módulo
+        displayFreightResult();
+        setupClearButton();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+/* Importando as fontes */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+  }
+
+@font-face {
+    font-family: 'Museo';
+    src: url('/assets/Museo700-Regular.otf') format('woff2');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+}
+
+.container h1 {
+    font-family: 'Museo', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.truck-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+select,input {
+    align-items: start;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 1.445px solid #6C6E75;
+    background-color: #F0F0F0;
+    font-size: 0.9rem;
+    box-sizing: border-box; /* padding e borda estejam no msm tamanho */
+    
+}
+
+
+select:focus, input:focus {
+    outline: none; /* Remove o contorno */
+    border-color: #6C6E75; /* cor da borda para manter um visual consistente */
+    box-shadow: none; /* Remove qualquer sombra adicional */
+}
+
+
+#clear-btn1 {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    cursor:pointer;
+    transition: background-color 0.1s;
+    margin-bottom: 10px;
+}
+
+#clear-btn1:hover {
+    background-color: #dfdfdf;
+    border: 1px solid #dfdfdf;
+}
+
+#clear-btn2 {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    background-color: transparent; /* fundo transparente */
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+#clear-btn2:hover {
+    background-color: #dfdfdf;
+}
+
+/* Não aparecer as setas direcionais no select */
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.freight-box {
+    border: 1px solid #ccc; /* Bordas como a do select */
+    border-radius: 4px; /* Cantos arredondados */
+    padding: 10px; /* Espaço interno */
+    font-size: 14px; /* Tamanho de fonte semelhante ao select */
+    background-color: #fff; /* Fundo branco */
+    width: 100%; /* Ajusta ao tamanho do conteúdo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin-bottom: 10px; /* Espaçamento entre as caixas */
+    text-align: start;
+   
+}
+
+
