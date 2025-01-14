@@ -5,12 +5,13 @@
     vertical-align: baseline;
     list-style: none;
     border: 0;
-  }
+}
 
 @font-face {
     font-family: 'Museo';
     src: url('Museo700-Regular.otf') format('opentype');
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -30,7 +31,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
-    
+
 }
 
 .container h1 {
@@ -47,7 +48,8 @@ body {
 }
 
 
-select,input {
+select,
+input {
     align-items: start;
     width: 100%;
     height: 50px;
@@ -58,15 +60,20 @@ select,input {
     border-bottom: 1.445px solid #6C6E75;
     background-color: #F0F0F0;
     font-size: 0.9rem;
-    box-sizing: border-box; /* padding e borda estejam no msm tamanho */
-    
+    box-sizing: border-box;
+    /* padding e borda estejam no msm tamanho */
+
 }
 
 
-select:focus, input:focus {
-    outline: none; /* Remove o contorno */
-    border-color: #6C6E75; /* cor da borda para manter um visual consistente */
-    box-shadow: none; /* Remove qualquer sombra adicional */
+select:focus,
+input:focus {
+    outline: none;
+    /* Remove o contorno */
+    border-color: #6C6E75;
+    /* cor da borda para manter um visual consistente */
+    box-shadow: none;
+    /* Remove qualquer sombra adicional */
 }
 
 
@@ -79,7 +86,7 @@ select:focus, input:focus {
     font-size: 1rem;
     font-weight: bold;
     color: #000000;
-    cursor:pointer;
+    cursor: pointer;
     transition: background-color 0.1s;
     margin-bottom: 10px;
 }
@@ -97,8 +104,9 @@ select:focus, input:focus {
     font-size: 1rem;
     font-weight: bold;
     color: #000000;
-    background-color: transparent; /* fundo transparente */
-    cursor:pointer;
+    background-color: transparent;
+    /* fundo transparente */
+    cursor: pointer;
     transition: background-color 0.3s;
 }
 
@@ -107,23 +115,29 @@ select:focus, input:focus {
 }
 
 /* Não aparecer as setas direcionais no select */
-input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
 .freight-box {
-    border: 1px solid #ccc; /* Bordas como a do select */
-    border-radius: 4px; /* Cantos arredondados */
-    padding: 10px; /* Espaço interno */
-    font-size: 14px; /* Tamanho de fonte semelhante ao select */
-    background-color: #fff; /* Fundo branco */
-    width: 100%; /* Ajusta ao tamanho do conteúdo */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    margin-bottom: 10px; /* Espaçamento entre as caixas */
+    border: 1px solid #ccc;
+    /* Bordas como a do select */
+    border-radius: 4px;
+    /* Cantos arredondados */
+    padding: 10px;
+    /* Espaço interno */
+    font-size: 14px;
+    /* Tamanho de fonte semelhante ao select */
+    background-color: #fff;
+    /* Fundo branco */
+    width: 100%;
+    /* Ajusta ao tamanho do conteúdo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+    margin-bottom: 10px;
+    /* Espaçamento entre as caixas */
     text-align: start;
-   
+
 }
-
-
