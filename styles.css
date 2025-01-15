@@ -31,6 +31,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
+    margin: 20px; /* Garante margem em todos os lados */
+
 
 }
 
@@ -139,26 +141,6 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-bottom: 10px;
     /* Espaçamento entre as caixas */
     text-align: start;
-
-
-    @media screen and (max-width: 500px) {
-        .container {
-            width: 90%;
-            /* Reduz a largura do container para 90% da tela */
-            margin: 0 auto;
-            /* Centraliza o container */
-            padding: 20px;
-            /* Ajusta o padding para o conteúdo */
-            min-height: 600px;
-            /* Define uma altura mínima */
-            display: flex;
-            /* Torna o container flexível */
-            flex-direction: column;
-            /* Garante que o conteúdo fique empilhado */
-            justify-content: center;
-            /* Centraliza o conteúdo verticalmente */
-        }
-    }
 
 
 }
