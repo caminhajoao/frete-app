@@ -3,12 +3,12 @@ const freightConstants = {
     freight2: [80, 80, 77, 74, 70],
     freight3: [56, 56, 53, 50, 46],
     freight4: [57, 57, 54, 50, 47],
-    freight5: [47, 49, 45, 42, 39],
+    freight5: [49, 49, 45, 42, 39],
     freight6: [59, 59, 55, 52, 49],
-    freight7: [70, 83, 80, 77, 73],
+    freight7: [83, 83, 80, 77, 73],
     freight8: [49, 49, 45, 42, 39],
-    freight9: [60, 67, 63, 60, 57],
-    freight10: [52, 56, 53, 50, 46]
+    freight9: [67, 67, 63, 60, 57],
+    freight10: [56, 56, 53, 50, 46]
 };
 
 // Função genérica para calcular o frete
