@@ -140,4 +140,25 @@ input[type="number"]::-webkit-outer-spin-button {
     /* Espaçamento entre as caixas */
     text-align: start;
 
+
+    @media screen and (max-width: 390px) {
+        .container {
+            width: 90%;
+            /* Reduz a largura do container para 90% da tela */
+            margin: 0 auto;
+            /* Centraliza o container */
+            padding: 20px;
+            /* Ajusta o padding para o conteúdo */
+            min-height: 600px;
+            /* Define uma altura mínima */
+            display: flex;
+            /* Torna o container flexível */
+            flex-direction: column;
+            /* Garante que o conteúdo fique empilhado */
+            justify-content: center;
+            /* Centraliza o conteúdo verticalmente */
+        }
+    }
+
+
 }
